@@ -37,7 +37,7 @@ Dans la mesure où l'on parle d'un projet de chatbot minimaliste, dans lequel on
 - (UX) Dans `Chatbot.tsx`, toute erreur n'est affichée seulement que dans la console, il faudrait l'afficher dans la UI.
 - (UX) Dans `ChatInput.tsx`, le texte de l'input est difficilement lisible, notamment car la propriété `color` se voit appliquer une valeur `inherit` par le style par défaut de Tailwind.
 
-![Input illisible](./assets/chatbot-unreadable-input.png)
+![Input illisible](./assets/critique-unreadable-input.png)
 
 - (UX) Il semble y avoir un début de travail pour le dark mode dans `globals.css`, mais la majeure partie des composants finaux appliquent soit une classe `bg-white` soit une classe gradient à-la `bg-gradient-to-br from-gray-50 to-gray-100` en guise de couleur de fond et une couleur de texte appropriée pour du light mode.
 
